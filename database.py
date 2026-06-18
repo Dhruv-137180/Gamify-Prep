@@ -85,7 +85,7 @@ def init_db() -> None:
     _init_resources()
     _init_concepts()
     _init_prestige()
-
+    migrate_tasks()
 
 def reset_db() -> None:
     """Wipe everything and re-seed."""
